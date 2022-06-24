@@ -16,6 +16,7 @@ def click_boton(valor):
     global i
     e_texto.insert(i, valor)
     i += 1
+    
 def borrar():
     e_texto.delete(0, END)
     i = 0
